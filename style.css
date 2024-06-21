@@ -1,0 +1,193 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0; 
+  background-color: #d2cbcb;
+}
+nav{ 
+  margin-right: 10px;
+  justify-content: right;
+}
+header{
+  height: 85px;
+  background-color: #3c41c8;
+  display: flex;
+  justify-content: space-between;
+}
+.eloisa-header{
+  display: flex;
+  align-items: center;
+}
+h1{
+  margin-left: 20px;
+  color: #e8e3e3;
+}
+#eloisa-img{
+  margin-left: 20px;
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid #cfcece;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+nav{
+  width: 500px;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: flex-end;
+}
+li{
+   margin: 5px; 
+   border-bottom: 2px solid #6082e6;
+   opacity: 0.8;
+}
+ul li {
+    display: inline-block; 
+}
+li:hover{
+      border-bottom: none;  
+}
+li:hover{
+  opacity: none;
+  background-color: white;
+  color: blue;
+  border-radius: 15px;
+  padding: 6px;
+}
+.container{
+  margin-top: 5px;
+  display: flex;
+background-color: #3c41c8;
+}
+.section-apresantacao{
+  align-items: centwaer;
+}
+.contato{
+  padding: 20px;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+}
+form input,
+form textarea {
+  display: flex;
+  border:  #8ea9e6;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  flex-direction: column;
+}
+
+p{
+  margin-top: 5px;
+}
+.section-apresantacao{
+  color: white;
+}
+.sections{
+  width: 70%;
+}
+section .section-grid{
+  display: flex;
+  width: 90%;
+  margin: 10px;
+  height: 200px;
+  background-color:  #5680e1;
+  justify-content: center;
+  }
+#icon{
+  height: 30px;
+  width: 40px;
+}
+.icones{
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+.header-form{
+  text-align: center;
+}
+aside{
+  margin: 20px;
+  background-color:  #5680e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 0;
+  color: white;
+}
+footer{
+  margin-top: 5px;
+  text-align: center;
+  background-color: #3c41c8;
+  color: white;
+}
+.section-apresantacao{
+  display: flex;
+}
+.text{
+  padding: 20px;
+}
+#img-body-eloisa{
+  padding: 15px;
+  height: 22cap;
+  width: 350px;
+}
+#grid{
+  border-radius: 20px;
+  padding: 20px;
+  height: 100px;
+  width: 120px;
+}
+.grid{
+  display: flex;
+  padding: 10px;
+  width: 220px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.container-contato{
+  display: flex;
+  height: 100%;
+  margin-top: 5px;
+  background-color: #3c41c8;
+  color: white;
+}
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.contato{
+  background-color:  #5680e1;
+  width: 40%;
+  min-height: 50%;
+}
+table{
+  border: white;
+  text-align: center;
+  background-color: #382c96;
+  width: 600px;
+  height: 350px;
+}
+#img-aside-eloisa{
+  width: 280px;
+  height: 190px;
+}
